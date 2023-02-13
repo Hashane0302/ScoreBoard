@@ -1,0 +1,39 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        
+    </head>
+    <body>
+        <div class ="maincontainer">
+        <div class="container-1">
+            <div>
+                <h3>HOME</h3>
+                <div class = "squareHome">
+                    <p id="homeScore">0</p>
+                </div>
+                <div class = "container-3">
+                        <button onclick="countOneA()" class = "sqaureOneA">+1</button>
+                        <button onclick="counttwoA()"class  = "sqauretwoA">+2</button>
+                        <button onclick="countthreeA()" class = "sqaurethreeA">+3</button>
+            </div>
+            <div class = "circle-1"></div>
+        </div class="container-1">
+            <div>
+                <h3>GUEST</h3>
+                <div class = "squareGuest">
+                 <p id="guestScore">0</p>
+                </div>
+                <div class = "container-4">
+                        <button onclick="countOneB()" class = "sqaureOneB">+1</button>
+                        <button onclick="counttwoB()" class = "sqauretwoB">+2</button>
+                        <button onclick="countthreeB()" class = "sqaurethreeB">+3</button>
+            </div>
+               <div class = "circle-1"></div>
+            </div>
+         
+        </div>
+            <button onclick="resetBtn()" class="reset-btn">RESET SCORE</button>
+        
+        <script src="index.js"></script>
+    </body>
+</html>

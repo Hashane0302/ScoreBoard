@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    text-align: center;
+    
+    
+}
+
+.container-1 {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 83px;
+    margin-left: 82px;
+}
+
+h3 {
+    padding-top: 30px;
+    color: white;
+    font-family:  "verdana";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    
+}
+
+/*container 1 */
+
+.squareHome {
+  margin-top: -61px;
+  width: 150px;
+  height: 100px;
+  background-color: black;
+  
+}
+
+#homeScore{
+    
+    font-family: Cursed Timer ULi;
+    color: #F94F6D;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    
+}
+
+.sqaureOneA {
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    margin-right: 9px;
+    background: transparent;
+    color: white;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+.sqauretwoA {
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    margin-right: 9px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+}
+
+.sqaurethreeA {
+    color: white;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    background: transparent;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    
+}
+
+.container-3 {
+    display: flex;
+    margin-top: 26px;
+}
+
+
+/*container 2 */
+
+.squareGuest{
+  margin-top: -61px;
+  width: 150px;
+  height: 100px;
+  background-color: black;
+  
+}
+
+#guestScore{
+    
+    font-family: Cursed Timer ULi;
+    color: #F94F6D;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    
+}
+
+.sqaureOneB {
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    margin-right: 9px;
+    background: transparent;
+    color: white;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+.sqauretwoB {
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    margin-right: 9px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+}
+
+.sqaurethreeB {
+    color: white;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    background: transparent;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    
+}
+
+.container-4 {
+    display: flex;
+    margin-top: 26px;
+}
+
+
+.reset-btn {
+    margin-top: 10px;
+    width: 140px;
+    height: 30px;
+    border-radius: 8px;
+    background: #b32424;
+    border: 1px solid white;
+    color: white;
+    
+    
+}
+
+.circle-1 {
+    
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 58px;
+}
