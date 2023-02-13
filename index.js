@@ -62,11 +62,5 @@ function countthreeB() {
  
  // lead board 
  
-function updateLead() {
-    if (homeCount > guestCount) {
-        homeCountEl.innerHTML = homeCount + '<div class = "circle-1"></div>';
-    } else if (guestCount > homeCount) {
-        guestCountEl.innerHTML = guestCount + '<div class = "circle-1"></div>';
-    }
-}
+
     
