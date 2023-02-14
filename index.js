@@ -1,4 +1,10 @@
+
+
+let lead = "" 
+
 //HomeScore Card 
+
+
 
 let homeCount = 0 
 let HomecountEl = document.getElementById("homeScore")
@@ -7,12 +13,16 @@ let HomecountEl = document.getElementById("homeScore")
 function countOneA() {
     homeCount += 1 
     HomecountEl.textContent = homeCount
+    lead = homeCount > guestCount ? "home" : "guest"
+    switchBulb ()
     console.log("Clicked")
 }
 
 function counttwoA() {
     homeCount += 2 
     HomecountEl.textContent = homeCount
+    lead = homeCount > guestCount ? "home" : "guest"
+    switchBulb ()
     console.log("Clicked")
 }
 
@@ -20,6 +30,10 @@ function counttwoA() {
 function countthreeA() {
     homeCount += 3 
     HomecountEl.textContent = homeCount
+    lead = homeCount > guestCount ? "home" : "guest"
+    switchBulb ()
+
+
     console.log("Clicked")
 }
 
@@ -33,12 +47,16 @@ let guesCountEl = document.getElementById("guestScore")
 function countOneB() {
     guestCount += 1 
    guesCountEl.textContent = guestCount
+   lead = homeCount > guestCount ? "home" : "guest"
+   switchBulb ()
     console.log("Clicked")
 }
 
 function counttwoB() {
     guestCount += 2 
     guesCountEl.textContent = guestCount
+    lead = homeCount > guestCount ? "home" : "guest"
+    switchBulb ()
     console.log("Clicked")
 }
 
@@ -46,6 +64,8 @@ function counttwoB() {
 function countthreeB() {
     guestCount += 3 
     guesCountEl.textContent = guestCount
+    lead = homeCount > guestCount ? "home" : "guest"
+    switchBulb ()
     console.log("Clicked")
 }
 
@@ -63,4 +83,16 @@ function countthreeB() {
  // lead board 
  
 
-    
+    function switchBulb () {
+        var homeEl = document.getElementById("home")
+        var guestEl = document.getElementById("guest")
+        console.log("bulb",lead)
+
+        if (lead === "home") {
+            homeEl.style.display = "block"
+            guestEl.style.display = "none"
+        } else {
+            guestEl.style.display = "block"
+            homeEl.style.display = "none"
+        }
+    }
