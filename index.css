@@ -149,7 +149,7 @@ h3 {
 
 
 .reset-btn {
-    margin-top: 10px;
+    margin-top: 40px;
     width: 140px;
     height: 30px;
     border-radius: 8px;
@@ -161,7 +161,7 @@ h3 {
 }
 
 .circle-1 {
-    
+    display:  !important;;
     width: 40px;
     height: 40px;
     background-color: green;
